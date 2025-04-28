@@ -1,65 +1,90 @@
-![Banner](./banner.png)
+# 🗂️ Exercícios com Arrays e Listas em Java
 
-# 📊 Exercícios com Vetores e ArrayList em Java
+![Banner](https://github.com/LucVinicius-DEV/ArrayLists/blob/main/assets/banner-arraylists.png)
 
-Repositório com dois projetos práticos para exercitar arrays estáticos e dinâmicos (`ArrayList`) em Java.  
-Ideal para entender a diferença de comportamento, acesso e flexibilidade entre vetores e listas.
+Repositório com exercícios práticos de manipulação de arrays (vetores) e listas em Java, desenvolvidos para consolidar conceitos de estrutura de dados homogênea, controle de memória e cálculos utilizando coleções.
 
----
-
-## ✨ O que você vai encontrar aqui
-
-- Leitura de dados do usuário via console  
-- Uso de **arrays** para armazenar valores de tamanho fixo  
-- Uso de **`ArrayList`** para armazenamento dinâmico  
-- Cálculo de médias em ambos os projetos  
-- Código comentado e organizado em classes separadas  
+Ideal para quem está começando em programação orientada a objetos e deseja reforçar a prática com vetores, laços e manipulação de dados básicos.
 
 ---
 
 ## 📚 Projetos disponíveis
 
-1. **Alturas de Pessoas**  
-   - Lê um inteiro `N`, armazena `N` alturas em um vetor `double[]`  
-   - Calcula e exibe a altura média  
-   - Pasta: `alturas-pessoas`  
-
-2. **Catálogo de Produtos**  
-   - Lê um inteiro `N`, armazena `N` produtos em um vetor `Product[]`  
-   - Cada `Product` contém `String nome` e `double preco`  
-   - Calcula e exibe o preço médio dos produtos  
-   - Pasta: `catalogo-produtos`  
+- [AVERAGE HEIGHT](./AVERAGE%20HEIGHT) — Cálculo da altura média de N pessoas.
+- [AVERAGE PRICES](./AVERAGE%20PRICES) — Cálculo do preço médio de N produtos.
+- [NEGATIVE NUMBERS](./NEGATIVE%20NUMBERS) — Identificação e exibição de números negativos em uma sequência.
 
 ---
 
-## 🧠 Conceitos aplicados
+## 🛠️ Tecnologias Utilizadas
 
-- **Tipos de Valor vs. Referência**  
-- **Alocação Estática** com arrays (`[]`)  
-- **Alocação Dinâmica** com `ArrayList<T>`  
-- Acesso direto a elementos por índice  
-- Iteração simples para leitura e cálculo  
-- Gerenciamento de coleções básicas  
+- Java
+- IDE IntelliJ IDEA
+- Git & GitHub
 
 ---
 
-## ▶️ Como executar os projetos
+# 📏 Average Height
 
-Para cada pasta de projeto (`alturas-pessoas` e `catalogo-produtos`):
+Programa desenvolvido em Java para ler a altura de N pessoas e calcular a altura média.
 
-1. Abra o terminal na pasta do projeto desejado.  
-2. Compile o(s) arquivo(s) `.java`:
-3. Execute o programa.
+## ✨ Funcionalidades
+
+- Leitura do número de pessoas (N).
+- Entrada das alturas individuais.
+- Cálculo da média das alturas.
+
+## ▶️ Como executar
+
+1. Compile o arquivo `Main.java` utilizando uma IDE ou o terminal.
+2. Execute o programa.
+3. Insira os dados conforme solicitado.
+
+---
+
+# 🛒 Average Prices
+
+Programa desenvolvido em Java para ler os dados de N produtos (nome e preço) e calcular o preço médio.
+
+## ✨ Funcionalidades
+
+- Leitura do número de produtos (N).
+- Entrada dos dados de nome e preço.
+- Cálculo do preço médio dos produtos.
+
+## ▶️ Como executar
+
+1. Compile o arquivo `Main.java` utilizando uma IDE ou o terminal.
+2. Execute o programa.
+3. Insira os dados conforme solicitado.
+
+---
+
+# ➖ Negative Numbers
+
+Programa desenvolvido em Java para ler N números inteiros (máximo 10) e exibir apenas os números negativos informados.
+
+## ✨ Funcionalidades
+
+- Leitura da quantidade de números a serem digitados (N).
+- Leitura dos números inteiros.
+- Exibição dos números negativos inseridos.
+
+## ▶️ Como executar
+
+1. Compile o arquivo `Main.java` utilizando uma IDE ou o terminal.
+2. Execute o programa.
+3. Insira os dados conforme solicitado.
+
+---
 
 ## 👨‍💻 Autor
 
-Desenvolvido por Lucas Vinícius durante seus estudos de Java, com mentoria da Luna.
+Desenvolvido por Lucas Vinícius com apoio da Luna, na jornada de aprendizado em Java.
 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Lucas%20Vinícius-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/lucas-vin%C3%ADcius-05b41a35b/)
+[![GitHub](https://img.shields.io/badge/GitHub-LucVinicius--DEV-black?style=flat&logo=github)](https://github.com/LucVinicius-DEV)
 
 ---
 
-## ⭐ Gostou do projeto?
-
-Deixe uma estrela no repositório e acompanhe o progresso no LinkedIn e GitHub!
-
-  
+Se você gostou deste projeto, deixe um ⭐ para apoiar o repositório e acompanhe o progresso pelo [LinkedIn](https://www.linkedin.com/in/lucas-vin%C3%ADcius-05b41a35b/) e pelo [GitHub](https://github.com/LucVinicius-DEV)!
