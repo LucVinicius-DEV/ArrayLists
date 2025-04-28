@@ -1,6 +1,6 @@
 # 🗂️ Exercícios com Arrays e Listas em Java
 
-![Banner](https://github.com/LucVinicius-DEV/ArrayLists/blob/main/assets/banner-arraylists.png)
+![Banner](https://github.com/LucVinicius-DEV/ArrayLists/blob/main/assets/banner.png)
 
 Repositório com exercícios práticos de manipulação de arrays (vetores) e listas em Java, desenvolvidos para consolidar conceitos de estrutura de dados homogênea, controle de memória e cálculos utilizando coleções.
 
