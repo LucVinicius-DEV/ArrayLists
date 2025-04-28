@@ -1,0 +1,67 @@
+package java.calculo_média_pessoas;
+
+import java.util.Locale;
+import java.util.Scanner;
+import java.util.ArrayList;
+import java.util.List;
+
+public class Main {
+
+    public static void main(String[] args) {
+        // Configura o programa para usar ponto como separador decimal
+        Locale.setDefault(Locale.US);
+        Scanner sc = new Scanner(System.in);
+
+        // Cria uma lista para armazenar as pessoas
+        List<Pessoa> lista = new ArrayList<>();
+
+        // Pergunta quantas pessoas serão cadastradas
+        System.out.print("Quantas pessoas serão digitadas? ");
+        int n = sc.nextInt();
+        sc.nextLine(); // Consome a quebra de linha pendente
+
+        // Loop para ler os dados das pessoas
+        for (int i = 0; i < n; i++) {
+            System.out.println("Dados da " + (i + 1) + "ª pessoa:");
+            System.out.print("Nome: ");
+            String nome = sc.nextLine();
+
+            System.out.print("Idade: ");
+            int idade = sc.nextInt();
+
+            System.out.print("Altura: ");
+            double altura = sc.nextDouble();
+            sc.nextLine(); // Consome a quebra de linha pendente
+
+            // Adiciona a nova pessoa na lista
+            lista.add(new Pessoa(nome, idade, altura));
+        }
+
+        // Calcula a altura média
+        double somaAlturas = 0.0;
+        for (Pessoa p : lista) {
+            somaAlturas += p.getAltura();
+        }
+        double alturaMedia = somaAlturas / lista.size();
+        System.out.printf("\nAltura média: %.2f\n", alturaMedia);
+
+        // Calcula a porcentagem de pessoas com menos de 16 anos
+        int menoresDe16 = 0;
+        for (Pessoa p : lista) {
+            if (p.getIdade() < 16) {
+                menoresDe16++;
+            }
+        }
+        double porcentagemMenores = ((double) menoresDe16 / lista.size()) * 100.0;
+        System.out.printf("Pessoas com menos de 16 anos: %.1f%%\n", porcentagemMenores);
+
+        // Mostra os nomes das pessoas com menos de 16 anos
+        for (Pessoa p : lista) {
+            if (p.getIdade() < 16) {
+                System.out.println(p.getNome());
+            }
+        }
+
+        sc.close();
+    }
+}
