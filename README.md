@@ -13,6 +13,14 @@ Ideal para quem está começando em programação orientada a objetos e deseja r
 - [AVERAGE HEIGHT](./AVERAGE%20HEIGHT) — Cálculo da altura média de N pessoas.
 - [AVERAGE PRICES](./AVERAGE%20PRICES) — Cálculo do preço médio de N produtos.
 - [NEGATIVE NUMBERS](./NEGATIVE%20NUMBERS) — Identificação e exibição de números negativos em uma sequência.
+- [CÁLCULO MÉDIA PESSOAS](./calculo-media-pessoas) — Cálculo da altura média de um grupo de pessoas.
+- [SOMA VETORES](./soma-vetores) — Soma dos elementos de dois vetores correspondentes.
+- [MAIOR VALOR E POSIÇÃO](./maior-valor-e-posicao) — Identificação do maior valor e sua posição em um vetor.
+- [ALTURA MÉDIA E ABAIXO DA MÉDIA](./altura-media-e-abaixo-da-media) — Cálculo da média das alturas e exibição de alturas abaixo da média.
+- [MÉDIA DOS PARES](./media-dos-pares) — Cálculo da média aritmética apenas dos números pares de um vetor.
+- [MAIOR IDADE](./maior-idade) — Identificação da pessoa mais velha a partir de um conjunto de nomes e idades.
+- [APROVAÇÃO ALUNOS](./aprovacao-alunos) — Listagem de alunos aprovados com base na média das notas.
+- [ALTURAS E GÊNEROS](./alturas-e-generos) — Análise de altura e gênero, com cálculo de estatísticas diversas.
 
 ---
 
@@ -62,7 +70,7 @@ Programa desenvolvido em Java para ler os dados de N produtos (nome e preço) e 
 
 # ➖ Negative Numbers
 
-Programa desenvolvido em Java para ler N números inteiros (máximo 10) e exibir apenas os números negativos informados.
+Programa desenvolvido em Java para ler N números inteiros (máximo 10) e exibir apenas os números negativos inseridos.
 
 ## ✨ Funcionalidades
 
